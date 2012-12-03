@@ -2,7 +2,7 @@
 PureMVC is a lightweight framework for creating applications based upon the classic [Model-View-Controller](http://en.wikipedia.org/wiki/Model-view-controller) design meta-pattern. This is a CoffeeScript port of the [AS3 reference implementation of the Standard Version](https://github.com/PureMVC/puremvc-as3-standard-framework/wiki).
 
 ## Demos
-* [Demo: TodoMVC](https://github.com/DeniSix/puremvc-coffeescript-standard-framework/demo-todomvc)
+* [Demo: TodoMVC](https://github.com/DeniSix/puremvc-coffeescript-standard-framework/tree/master/demo-todomvc)
 
 ## Platforms / Technologies
 * [CoffeeScript](http://en.wikipedia.org/wiki/CoffeeScript)
