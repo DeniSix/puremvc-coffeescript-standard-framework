@@ -106,5 +106,5 @@ class TodoProxy extends puremvc.Proxy
   # CLASS MEMBERS
   NAME: "TodoProxy"
 
-namespace 'todomvc.model.proxy', (exports) ->
+puremvc.DefineNamespace 'todomvc.model.proxy', (exports) ->
   exports.TodoProxy = TodoProxy

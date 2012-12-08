@@ -72,6 +72,6 @@ class Facade
   # Message Constants
   @SINGLETON_MSG = "Facade Singleton already constructed!"
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Facade = Facade

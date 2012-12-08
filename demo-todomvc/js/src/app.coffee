@@ -19,5 +19,5 @@ class Application
   # Get an instance of the PureMVC Facade. This creates the Model, View, and Controller instances.
   facade: puremvc.Facade.getInstance()
 
-namespace 'todomvc', (exports) ->
+puremvc.DefineNamespace 'todomvc', (exports) ->
   exports.Application = Application

@@ -26,6 +26,6 @@ class Proxy extends Notifier
 
   NAME: 'Proxy'
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Proxy = Proxy

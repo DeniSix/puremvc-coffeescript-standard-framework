@@ -52,5 +52,5 @@ class RoutesMediator extends puremvc.Mediator
   # STATIC MEMBERS
   NAME: "RoutesMediator"
 
-namespace 'todomvc.view.mediator', (exports) ->
+puremvc.DefineNamespace 'todomvc.view.mediator', (exports) ->
   exports.RoutesMediator = RoutesMediator

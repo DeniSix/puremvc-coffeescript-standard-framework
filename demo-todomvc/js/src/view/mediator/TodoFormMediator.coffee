@@ -47,5 +47,5 @@ class TodoFormMediator extends puremvc.Mediator
   # STATIC MEMBERS
   NAME: "TodoFormMediator"
 
-namespace 'todomvc.view.mediator', (exports) ->
+puremvc.DefineNamespace 'todomvc.view.mediator', (exports) ->
   exports.TodoFormMediator = TodoFormMediator

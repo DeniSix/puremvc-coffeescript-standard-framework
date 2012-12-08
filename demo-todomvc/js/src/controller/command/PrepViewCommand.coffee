@@ -16,5 +16,5 @@ class PrepViewCommand extends puremvc.SimpleCommand
     @facade.registerMediator new todomvc.view.mediator.TodoFormMediator()
     @facade.registerMediator new todomvc.view.mediator.RoutesMediator()
 
-namespace 'todomvc.controller.command', (exports) ->
+puremvc.DefineNamespace 'todomvc.controller.command', (exports) ->
   exports.PrepViewCommand = PrepViewCommand

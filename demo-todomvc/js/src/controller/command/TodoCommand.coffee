@@ -30,5 +30,5 @@ class TodoCommand extends puremvc.SimpleCommand
       else
         console.log "TodoCommand received an unsupported Notification"
 
-namespace 'todomvc.controller.command', (exports) ->
+puremvc.DefineNamespace 'todomvc.controller.command', (exports) ->
   exports.TodoCommand = TodoCommand

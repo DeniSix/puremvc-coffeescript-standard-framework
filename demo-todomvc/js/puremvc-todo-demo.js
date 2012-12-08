@@ -47,7 +47,7 @@ AppConstants = (function() {
 
 })();
 
-namespace('todomvc', function(exports) {
+puremvc.DefineNamespace('todomvc', function(exports) {
   return exports.AppConstants = AppConstants;
 });
 
@@ -232,7 +232,7 @@ TodoProxy = (function(_super) {
 
 })(puremvc.Proxy);
 
-namespace('todomvc.model.proxy', function(exports) {
+puremvc.DefineNamespace('todomvc.model.proxy', function(exports) {
   return exports.TodoProxy = TodoProxy;
 });
 
@@ -298,7 +298,7 @@ AppEvents = (function() {
 
 })();
 
-namespace('todomvc.view.event', function(exports) {
+puremvc.DefineNamespace('todomvc.view.event', function(exports) {
   return exports.AppEvents = AppEvents;
 });
 
@@ -558,7 +558,7 @@ TodoForm = (function() {
 
 })();
 
-namespace('todomvc.view.component', function(exports) {
+puremvc.DefineNamespace('todomvc.view.component', function(exports) {
   return exports.TodoForm = TodoForm;
 });
 
@@ -631,7 +631,7 @@ RoutesMediator = (function(_super) {
 
 })(puremvc.Mediator);
 
-namespace('todomvc.view.mediator', function(exports) {
+puremvc.DefineNamespace('todomvc.view.mediator', function(exports) {
   return exports.RoutesMediator = RoutesMediator;
 });
 
@@ -694,7 +694,7 @@ TodoFormMediator = (function(_super) {
 
 })(puremvc.Mediator);
 
-namespace('todomvc.view.mediator', function(exports) {
+puremvc.DefineNamespace('todomvc.view.mediator', function(exports) {
   return exports.TodoFormMediator = TodoFormMediator;
 });
 
@@ -730,7 +730,7 @@ StartupCommand = (function(_super) {
 
 })(puremvc.MacroCommand);
 
-namespace('todomvc.controller.command', function(exports) {
+puremvc.DefineNamespace('todomvc.controller.command', function(exports) {
   return exports.StartupCommand = StartupCommand;
 });
 
@@ -769,7 +769,7 @@ PrepControllerCommand = (function(_super) {
 
 })(puremvc.SimpleCommand);
 
-namespace('todomvc.controller.command', function(exports) {
+puremvc.DefineNamespace('todomvc.controller.command', function(exports) {
   return exports.PrepControllerCommand = PrepControllerCommand;
 });
 
@@ -803,7 +803,7 @@ PrepModelCommand = (function(_super) {
 
 })(puremvc.SimpleCommand);
 
-namespace('todomvc.controller.command', function(exports) {
+puremvc.DefineNamespace('todomvc.controller.command', function(exports) {
   return exports.PrepModelCommand = PrepModelCommand;
 });
 
@@ -838,7 +838,7 @@ PrepViewCommand = (function(_super) {
 
 })(puremvc.SimpleCommand);
 
-namespace('todomvc.controller.command', function(exports) {
+puremvc.DefineNamespace('todomvc.controller.command', function(exports) {
   return exports.PrepViewCommand = PrepViewCommand;
 });
 
@@ -889,7 +889,7 @@ TodoCommand = (function(_super) {
 
 })(puremvc.SimpleCommand);
 
-namespace('todomvc.controller.command', function(exports) {
+puremvc.DefineNamespace('todomvc.controller.command', function(exports) {
   return exports.TodoCommand = TodoCommand;
 });
 
@@ -916,6 +916,6 @@ Application = (function() {
 
 })();
 
-namespace('todomvc', function(exports) {
+puremvc.DefineNamespace('todomvc', function(exports) {
   return exports.Application = Application;
 });

@@ -22,5 +22,5 @@ class PrepControllerCommand extends puremvc.SimpleCommand
     @facade.registerCommand todomvc.AppConstants::TOGGLE_TODO_STATUS, todomvc.controller.command.TodoCommand
     @facade.registerCommand todomvc.AppConstants::FILTER_TODOS, todomvc.controller.command.TodoCommand
 
-namespace 'todomvc.controller.command', (exports) ->
+puremvc.DefineNamespace 'todomvc.controller.command', (exports) ->
   exports.PrepControllerCommand = PrepControllerCommand

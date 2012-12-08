@@ -82,6 +82,6 @@ class View
   # Message Constants
   @SINGLETON_MSG = "View Singleton already constructed!"
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.View = View

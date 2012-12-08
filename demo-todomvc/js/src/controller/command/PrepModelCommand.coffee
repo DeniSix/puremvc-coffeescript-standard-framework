@@ -15,5 +15,5 @@ class PrepModelCommand extends puremvc.SimpleCommand
   execute: (note) ->
     @facade.registerProxy new todomvc.model.proxy.TodoProxy()
 
-namespace 'todomvc.controller.command', (exports) ->
+puremvc.DefineNamespace 'todomvc.controller.command', (exports) ->
   exports.PrepModelCommand = PrepModelCommand

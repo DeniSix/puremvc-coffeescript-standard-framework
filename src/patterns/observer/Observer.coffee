@@ -30,6 +30,6 @@ class Observer
   compareNotifyContext: (object) ->
     obj is @getNotifyContext()
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Observer = Observer

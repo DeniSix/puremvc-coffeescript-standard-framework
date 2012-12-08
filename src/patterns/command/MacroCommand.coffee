@@ -23,6 +23,6 @@ class MacroCommand extends Notifier
     new commandClassRef().execute notification for commandClassRef in @subCommands
     null
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.MacroCommand = MacroCommand

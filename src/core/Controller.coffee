@@ -37,6 +37,6 @@ class Controller
   # Message Constants
   @SINGLETON_MSG = "Controller Singleton already constructed!"
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Controller = Controller

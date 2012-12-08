@@ -26,6 +26,6 @@ class Notification
   toString: ->
     "Notification Name: #{name}\nBody: #{@body or null}\nType: #{@type or null}"
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Notification = Notification

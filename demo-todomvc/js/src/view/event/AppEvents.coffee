@@ -39,5 +39,5 @@ class AppEvents
       object.dispatchEvent event
     else object.fireEvent event.type, event  if object.fireEvent
 
-namespace 'todomvc.view.event', (exports) ->
+puremvc.DefineNamespace 'todomvc.view.event', (exports) ->
   exports.AppEvents = AppEvents

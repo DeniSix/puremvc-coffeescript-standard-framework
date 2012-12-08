@@ -14,6 +14,6 @@ class Notifier
   sendNotification: (notificationName, body, type) ->
     @facade.sendNotification notificationName, body, type
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Notifier = Notifier

@@ -17,5 +17,5 @@ class StartupCommand extends puremvc.MacroCommand
     @addSubCommand todomvc.controller.command.PrepModelCommand
     @addSubCommand todomvc.controller.command.PrepViewCommand
 
-namespace 'todomvc.controller.command', (exports) ->
+puremvc.DefineNamespace 'todomvc.controller.command', (exports) ->
   exports.StartupCommand = StartupCommand

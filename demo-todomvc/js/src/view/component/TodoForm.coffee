@@ -236,5 +236,5 @@ class TodoForm
   # STATIC MEMBERS
   NAME: "TodoForm"
 
-namespace 'todomvc.view.component', (exports) ->
+puremvc.DefineNamespace 'todomvc.view.component', (exports) ->
   exports.TodoForm = TodoForm

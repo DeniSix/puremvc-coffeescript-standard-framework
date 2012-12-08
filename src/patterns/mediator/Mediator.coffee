@@ -32,6 +32,6 @@ class Mediator extends Notifier
 
   NAME: 'Mediator'
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Mediator = Mediator

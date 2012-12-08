@@ -36,6 +36,6 @@ class Model
   # Message Constants
   @SINGLETON_MSG = "Model Singleton already constructed!"
 
-# Restrict class to `puremvc` namespace
-namespace 'puremvc', (exports) ->
+# Restrict class to `puremvc` puremvc.DefineNamespace
+puremvc.DefineNamespace 'puremvc', (exports) ->
   exports.Model = Model

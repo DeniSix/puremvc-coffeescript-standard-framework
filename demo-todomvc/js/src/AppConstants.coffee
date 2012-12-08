@@ -28,5 +28,5 @@ class AppConstants
   FILTER_ACTIVE: "active"
   FILTER_COMPLETED: "completed"
 
-namespace 'todomvc', (exports) ->
+puremvc.DefineNamespace 'todomvc', (exports) ->
   exports.AppConstants = AppConstants
