@@ -61,7 +61,7 @@ build = (watch, callback) ->
     callback = watch
     watch = false
 
-  options = ['-c', '-b', '-j', "#{outJS}.js"]
+  options = ['-c', '-j', "#{outJS}.js"]
   options = options.concat files
   options.unshift '-w' if watch
   launch 'coffee', options, callback
