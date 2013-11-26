@@ -8,7 +8,7 @@ PureMVC is a lightweight framework for creating applications based upon the clas
 * [CoffeeScript](http://en.wikipedia.org/wiki/CoffeeScript)
 
 ## License
-* PureMVC CoffeScript implementation by Denis Shemanaev <idenisix@gmail.com>
+* PureMVC CoffeeScript implementation by Denis Shemanaev <denis@shemanaev.com>
 * PureMVC - Copyright(c) 2006-08 Futurescale, Inc., Some rights reserved.
 * Your reuse is governed by the Creative Commons Attribution 3.0 United States License
 
